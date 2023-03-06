@@ -48,3 +48,11 @@ func main() {
 		conn.Close()
 	}
 }
+
+//In this example, we define the IP address and port to listen on and set up a socket to listen for incoming traffic. We then read data from incoming connections and analyze the data for intrusion attempts using string matching. If an intrusion attempt is detected, the script prints a message to the console. Finally, we close the connection and continue listening for incoming traffic.
+
+Note that this is a simple example and a complete intrusion detection system would need to be more sophisticated and robust. However, this should give you a general idea of how to get started with intrusion detection in Go.
+
+
+
+
